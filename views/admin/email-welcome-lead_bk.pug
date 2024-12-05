@@ -1,0 +1,42 @@
+extends email-layout
+
+block content
+  h2 #{msg.center_name}
+  p Dear #{msg.lead_name},
+  p Thank you for contacting our team at #{msg.center_name}.
+  p Across the world and in #{msg.center_area}, we create magical learning spaces where children flourish and thrive.
+  p.title-email What we offer
+  ul
+    li International preschool and daycare for 8 months to 6 years.
+    li Learning spaces infused with cutting edgy pedagogy.
+    li Customized education for each child.
+    li Half-day and full-day childcare services.
+    li STEM-based learning.
+    li Explorer and Skill days.
+    li Afterschool programs.
+  p.title-email Kido Club
+  p
+    | Free access to
+    a(href=msg.activities target="_blank")  Kido Club
+    |  - An exclusive portal for Kido parents for Events, activities, courses, and more.
+  br
+  h3 BOOK A SCHOOL TOUR
+  p My name is #{msg.spoc}, and I invite interested parents to visit the center to see our fantastic settings, meet our teachers and learn all about us! You can reach out to me at #{msg.email} or by calling #{(msg.whatsapp && msg.contact) ? `${msg.whatsapp} (WhatsApp Number) / ${msg.contact} (Contact Number)` : msg.whatsapp ? `${msg.whatsapp} (WhatsApp Number)` : msg.contact ? `${msg.contact} (Contact Number)` : ""}.
+  p Watch the video to know more about us -&nbsp;
+    a(href=`${msg.video}` target="_blank") Click here.
+  p.title-email There's a lot more
+  p
+    | Parents can visit our
+    a(href=msg.website target="_blank")  Website
+    |  to learn more about
+    a(href="https://www.kidoschools.com/in/in-curriculum/" target="_blank")  our curriculum
+    |  and our
+    a(href="https://www.kidoschools.com/in/in-events/" target="_blank")  latest events. (They are free!)
+  p We look forward to seeing you at Kido.
+  p
+    | Best Regards,
+    br
+    | #{msg.sal} #{msg.spoc}
+    br
+    | #{msg.designation}, #{msg.center_name}
+  //- p.grey-mark This mail is auto-generated mail. Please do not reply to this mail.

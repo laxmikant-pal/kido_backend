@@ -1,0 +1,68 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Status,Text Area 1
+1,Document,,,,,,,,,DRAFT,CPanel Architecture
+2,Page,,,,,,,,,,AWS (2019) horizontal framework
+3,AvailabilityZoneAWS19,AWS Architecture 2019,2,6,49,,,,,,
+4,Text,Standard,2,3|6,49,,,,,,"Availability Zone
+"
+5,PublicSubnetAWS19,AWS Architecture 2019,2,3|6,,,,,,,Public Subnet 1
+6,AWS Cloud,AWS Architecture 2019,2,,,,,,,,AWS Cloud
+7,Amazon Route 53,AWS Architecture 2019,2,,,,,,,,Route 53 (DNS Resolution)
+8,Rectangle Container,Flowchart Shapes,2,,50,,,,,,
+9,Text,Standard,2,8,50,,,,,,"Visualize your AWS network architecture to simplify the process of architecting, building, and/or running applications that use AWS technology.
+
+Note: This template gives you access to the AWS 2019 shape library. 
+
+To create your own AWS infrastructure diagram: 
+Either alter this template or click the bottom blue button to see an example. 
+Drag and drop the various AWS shapes from the toolbox onto the canvas.
+Search for shape names to find the correct shape faster by clicking on the magnifying glass in the top left corner      . 
+
+Pro Tip: To automatically visualize your cloud architecture, check out Lucidscale."
+10,Text,Standard,2,8,50,,,,,,"Tutorials (Hold Shift + ⌘ or Ctrl, then click)
+ 
+"
+11,Text,Standard,2,8,50,,,,,,Learn about this template
+12,Button,UI Mockups,2,8,50,,,,,,"View an AWS web app hosting diagram example
+(Hold Shift + ⌘ or Ctrl, then click)"
+13,Button,UI Mockups,2,8,50,,,,,,Watch Lucidchart basic tutorials
+14,SVGPathBlock2,,2,8,51,,,,,,
+15,Circle,Geometric Shapes,2,8,51,,,,,,
+16,Button,UI Mockups,2,8,50,,,,,,Read about how to use layers
+17,Text,Standard,2,,52,,,,,,CPanel Architecture
+18,Text,Standard,2,,52,,,,,,"Harsh Vardhan  |  October 12, 2022"
+19,Button,UI Mockups,2,,,,,,,,
+20,Text,Standard,2,,,,,,,,Automatically visualize your cloud infrastructure. Click here to learn more about how Lucidscale helps you automatically create diagrams of your existing cloud architecture.
+21,User Image,User Images,2,,,,,,,,
+22,User Image,User Images,2,,,,,,,,
+23,Amazon EC2,AWS Architecture 2019,2,3|5|6,,,,,,,Amazon EC2
+24,Elastic Load Balancing,AWS Architecture 2019,2,3|5|6,,,,,,,Elastic Load Balancing
+25,Amazon Elastic Block Store (EBS),AWS Architecture 2019,2,3|5|6,,,,,,,Amazon Elastic Block Store (EBS)
+26,Client,AWS Architecture 2019,2,,,,,,,,Client
+27,AWS Certificate Manager,AWS Architecture 2019,2,3|5|6,,,,,,,AWS Certificate Manager
+28,Disks Snapshots,Azure 2021,2,3|5|6,,,,,,,Disks Snapshots
+29,S3 bucket with objects,AWS Architecture 2017,2,6,,,,,,,S3 Bucket
+30,RDS DB instance,AWS Architecture 2017,2,3|5|6,,,,,,,RDS (MySQL)
+31,Disks Snapshots,Azure 2021,2,3|5|6,,,,,,,Disks Snapshots
+32,Text,Standard,2,3|5|6,,,,,,,"Semi Weekly Snapshots
+"
+33,Text,Standard,2,3|6,,,,,,,CronJob Data Backup (Daily)
+34,Text,Standard,2,3|5|6,,,,,,,"SNI
+"
+35,Text,Standard,2,3|5|6,,,,,,,Daily Snapshot (Retention Period 15 Days)
+36,Text,Standard,2,3|5|6,,,,,,,Snapshot (Retention Period 1 Month)
+37,Text,Standard,2,3|5|6,,,,,,,t3a.xlarge
+38,Text,Standard,2,3|5|6,,,,,,,100 GB (gp3)
+39,Line,,2,,,7,24,None,Arrow,,
+40,Line,,2,,,26,7,None,Arrow,,
+41,Line,,2,,52,17,,None,None,,
+42,Line,,2,,,24,23,None,Arrow,,
+43,Line,,2,,,24,27,None,Arrow,,
+44,Line,,2,,,23,25,None,Arrow,,
+45,Line,,2,,,25,28,None,Arrow,,
+46,Line,,2,,,23,29,None,Arrow,,
+47,Line,,2,,,23,30,None,Arrow,,
+48,Line,,2,,,30,31,None,Arrow,,
+49,Group 1,,2,,,,,,,,
+50,Group 2,,2,,,,,,,,
+51,Group 3,,2,,50,,,,,,
+52,Group 4,,2,,,,,,,,
