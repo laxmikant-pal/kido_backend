@@ -8,7 +8,7 @@ const moment = require("moment");
 const helper = require("../../handlers/helper");
 const axios = require('axios');
 const mail = require("../../handlers/mail");
-const FACEBOOK_PAGE_ACCESS_TOKEN = 'EAAXPWqCw9K0BAKYzqmISs2vHGVpIsQbuYqrMHINN3k530XHVF3oon0WLg8RYuqmiSpQDewyU93vjaIyb8uadhZBGZCKmPWfaDdyGhLutqVNVunPJQT3K8RkT4ZATn2EpKAf6ZCCLRrLL2gDgBpimoaflePx2XjtntnYeJ7GC1nfW9bRWQ0KWzPDemXdQhdEZD';
+const FACEBOOK_PAGE_ACCESS_TOKEN = '';
 
 exports.getTest = (req, res, next) => {
   return res.send('working');
